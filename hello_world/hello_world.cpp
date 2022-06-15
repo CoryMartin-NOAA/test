@@ -6,5 +6,5 @@ int main() {
   std::string myname = "Cory Martin";
   std::string myemail = "cory.r.martin@noaa.gov";
   std::cout << "Hello world! My name is " << myname << " and my email address is "
-  << myemail << "." << std::endl;
+  << myemail << "." << std::endl; // semicolon means the statement is done, otherwise it is one big line
 } // C++ loves brackets...
