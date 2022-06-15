@@ -1,17 +1,20 @@
 program convert
 
-implicit none
+ implicit none
 
-real :: tempf , tempc
+ real :: tempf , tempc
 
-tempf = 89
+ tempf = 89
 
-call FtoC(tempf , tempc)
-print * , tempc
+ call FtoC(tempf , tempc)
+ print * , tempc
+
 end program convert
 
 subroutine FtoC(tempf, tempc)
-real , intent(in) :: tempf
-real , intent(out) :: tempc
-tempc = (tempf - 32)*5/9
+ 
+ real , intent(in) :: tempf
+ real , intent(out) :: tempc
+ tempc = (tempf - 32)*5/9
+
 end subroutine
