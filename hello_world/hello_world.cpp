@@ -3,8 +3,8 @@
 #include <string> // this is to get the string type
 
 int main() {
-  std::string myname = "Cory Martin";
-  std::string myemail = "cory.r.martin@noaa.gov";
+  std::string myname = "Joshua Kumm";
+  std::string myemail = "joshua.kumm@noaa.gov";
   std::cout << "Hello world! My name is " << myname << " and my email address is "
   << myemail << "." << std::endl; // semicolon means the statement is done, otherwise it is one big line
 } // C++ loves brackets...
